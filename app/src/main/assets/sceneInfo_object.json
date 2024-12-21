@@ -1,0 +1,38 @@
+{
+  "Taiwan": [
+    {
+      "name": "下龍灣",
+      "country": "越南",
+      "imgFile": "R.drawable.shalongwan"
+    },
+    {
+      "name": "孟買",
+      "country": "印度",
+      "imgFile": "R.drawable.mongmy"
+    }
+  ],
+  "Japan": [
+    {
+      "name": "下龍灣",
+      "country": "越南",
+      "imgFile": "R.drawable.shalongwan"
+    },
+    {
+      "name": "孟買",
+      "country": "印度",
+      "imgFile": "R.drawable.mongmy"
+    }
+  ],
+  "USA": [
+    {
+      "name": "下龍灣",
+      "country": "越南",
+      "imgFile": "R.drawable.shalongwan"
+    },
+    {
+      "name": "孟買",
+      "country": "印度",
+      "imgFile": "R.drawable.mongmy"
+    }
+  ]
+}
