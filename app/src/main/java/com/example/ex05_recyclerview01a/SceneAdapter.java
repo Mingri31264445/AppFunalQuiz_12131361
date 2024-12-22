@@ -1,6 +1,7 @@
 package com.example.ex05_recyclerview01a;
 
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +21,7 @@ import java.util.List;
 
 public class SceneAdapter extends RecyclerView.Adapter<SceneAdapter.ViewHolder>{
     private ArrayList<SceneInfo> listdata;
+    private static final String TAG = "SceneAdapter";
 
     // RecyclerView recyclerView;
     public SceneAdapter(ArrayList<SceneInfo> listdata) {
@@ -37,6 +39,7 @@ public class SceneAdapter extends RecyclerView.Adapter<SceneAdapter.ViewHolder>{
     }
 
     public void updateData(List<SceneInfo> newData) {
+        Log.d(TAG, "Updating data with new list size: " + newData.size());
         this.listdata.clear(); // 清除舊數據
         this.listdata.addAll(newData); // 添加新數據
         notifyDataSetChanged(); // 通知 RecyclerView 數據已更新

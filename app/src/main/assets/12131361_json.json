@@ -4,61 +4,61 @@
       "description": "【Acer 宏碁】Nitro V ANV16-41-R8RN 電競筆電",
       "country": "$31900",
       "imgFile": "computer1",
-      "category": "筆電"
+      "category": "computer"
     },
     {
       "description": "【HP 惠普】15S-fd0072TU 輕薄筆電 星河銀",
       "country": "$21900",
       "imgFile": "computer2",
-      "category": "筆電"
+      "category": "computer"
     },
     {
       "description": "【ASUS 華碩】X1504ZA-0171C1235U 特仕版筆電",
       "country": "$18498",
       "imgFile": "computer3",
-      "category": "筆電"
+      "category": "computer"
     },
     {
       "description": "【ESENSE 逸盛】E-C11 冷光五風扇筆電散熱墊",
       "country": "$399",
       "imgFile": "ped1",
-      "category": "其他"
+      "category": "else"
     },
     {
       "description": "【GJL】XBC03 筆電散熱支架-旋轉",
       "country": "$1490",
       "imgFile": "ped2",
-      "category": "其他"
+      "category": "else"
     },
     {
       "description": "【Logitech 羅技】G413 機械式背光遊戲鍵盤",
       "country": "$2290",
       "imgFile": "keybord1",
-      "category": "鍵盤"
+      "category": "keyboard"
     },
     {
       "description": "【logitech 羅技】G304 LIGHTSPEED 遊戲滑鼠",
       "country": "$888",
       "imgFile": "mouse1",
-      "category": "滑鼠"
+      "category": "mouse"
     },
     {
       "description": "【Razer 雷蛇】DeathAdder 煉獄奎蛇 V3 PRO 滑鼠",
       "country": "$3490",
       "imgFile": "mouse2",
-      "category": "滑鼠"
+      "category": "mouse"
     },
     {
       "description": "【Razer 雷蛇】V4 X 黑寡婦蜘蛛 幻彩版鍵盤 綠軸",
       "country": "$2990",
       "imgFile": "keybord2",
-      "category": "鍵盤"
+      "category": "keyboard"
     },
     {
       "description": "【ASUS 華碩】ROG  NX Moonlight White 機械式鍵盤",
       "country": "$3190",
       "imgFile": "keybord3",
-      "category": "鍵盤"
+      "category": "keyboard"
     }
   ]
 }

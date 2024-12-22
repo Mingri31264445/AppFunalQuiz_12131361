@@ -8,6 +8,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public class SceneInfo {
@@ -131,7 +132,7 @@ public class SceneInfo {
                 byte[] buffer = new byte[size];
                 is.read(buffer);
                 is.close();
-                jsonStr = new String(buffer, "UTF-8");
+                jsonStr = new String(buffer, StandardCharsets.UTF_8);
 
             } catch (IOException e) {
                 throw new RuntimeException(e);
