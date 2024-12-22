@@ -42,7 +42,7 @@ public class SceneAdapter extends RecyclerView.Adapter<SceneAdapter.ViewHolder>{
         Log.d(TAG, "Updating data with new list size: " + newData.size());
         this.listdata.clear(); // 清除舊數據
         this.listdata.addAll(newData); // 添加新數據
-        notifyDataSetChanged(); // 通知 RecyclerView 數據已更新
+        notifyDataSetChanged(); // 通知RecyclerView數據更新
     }
 
     @Override

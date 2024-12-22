@@ -59,6 +59,54 @@
       "country": "$3190",
       "imgFile": "keybord3",
       "category": "keyboard"
+    },
+    {
+      "description": "【HP 惠普】255 G10 15.6吋 R7 商務筆電",
+      "country": "$27900",
+      "imgFile": "computer4",
+      "category": "computer"
+    },
+    {
+      "description": "【Acer 宏碁】A315-44P-R10L 15.6吋 R7 筆電 銀色",
+      "country": "$18900",
+      "imgFile": "computer5",
+      "category": "computer"
+    },
+    {
+      "description": "【MSI 微星】Katana 17 17.3吋 電競筆電",
+      "country": "$42900",
+      "imgFile": "computer6",
+      "category": "computer"
+    },
+    {
+      "description": "【MSI 微星】Thin A15 15.6吋 電競筆電",
+      "country": "$28900",
+      "imgFile": "computer7",
+      "category": "computer"
+    },
+    {
+      "description": "【Razer 雷蛇】Pro Click Humanscale 無線滑鼠 白色",
+      "country": "$1688",
+      "imgFile": "mouse3",
+      "category": "mouse"
+    },
+    {
+      "description": "【Logitech 羅技】F310 遊戲搖桿",
+      "country": "$689",
+      "imgFile": "controler1",
+      "category": "else"
+    },
+    {
+      "description": "【Razer 雷蛇】獵魂光蛛 V2 鍵盤 中文/紅軸",
+      "country": "$3990",
+      "imgFile": "keybord4",
+      "category": "keyboard"
+    },
+    {
+      "description": "【Logitech 羅技】M331 無線靜音滑鼠 黑",
+      "country": "$699",
+      "imgFile": "mouse4",
+      "category": "mouse"
     }
   ]
 }

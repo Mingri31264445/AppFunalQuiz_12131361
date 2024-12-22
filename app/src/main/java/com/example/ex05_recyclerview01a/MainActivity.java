@@ -34,25 +34,13 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        /*
-        try {
-            //將由檔案傳出的字串轉換成物件儲存在記憶體上
-            JSONObject obj = new JSONObject(SceneInfo.loadJSONObjectFromAsset(this, "12131361_json.json"));
-            JSONArray allSceneArr = obj.getJSONArray("all");
-        } catch (JSONException e) {
-            throw new RuntimeException(e);
-        }
-        */
 
         // 載入完整的資料清單
         fullSceneList = SceneInfo.getArrayListFromJsonFile(MainActivity.this);
 
-
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        //SceneAdapter adapter = new SceneAdapter(SceneInfo.getMyListDataArrayListV2());
-        //SceneAdapter adapter = new SceneAdapter(SceneInfo.getArrayListFromJsonFile(MainActivity.this));
         // 初始化 Adapter 並設定
         adapter = new SceneAdapter(new ArrayList<>(fullSceneList));
         recyclerView.setAdapter(adapter);
@@ -66,14 +54,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void filterScenes(String category) {
 
-        // 打印 fullSceneList 的大小
-        Log.d(TAG, "Full scene list size: " + fullSceneList.size());
-
-        // 打印每个 SceneInfo 的类别
-        for (SceneInfo scene : fullSceneList) {
-            Log.d(TAG, "Scene category: " + scene.getCategory());
-        }
-
         // 篩選符合條件的資料
         ArrayList<SceneInfo> filteredList = new ArrayList<>();
         for (SceneInfo scene : fullSceneList) {
@@ -81,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
                 filteredList.add(scene);
             }
         }
-        Log.d(TAG, "Filtered list size: " + filteredList.size());
         // 更新 Adapter 資料
         adapter.updateData(filteredList);
     }

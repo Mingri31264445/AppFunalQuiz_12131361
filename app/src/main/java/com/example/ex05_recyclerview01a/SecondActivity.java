@@ -31,7 +31,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // 點擊後返回上一頁
-                onBackPressed();
+                finish();
             }
         });
 
@@ -41,6 +41,7 @@ public class SecondActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // 顯示 Toast 訊息
                 Toast.makeText(SecondActivity.this, "已將此商品加入至購物車", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
     }
