@@ -15,6 +15,15 @@ public class SceneInfo {
     private int imgId;
     String imgFile;
     private String country;
+    private String category; // 新增類別屬性
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
 
     public String getCountry() {
         return country;
@@ -29,16 +38,18 @@ public class SceneInfo {
         this.imgId = imgId;
     }
 
-    public SceneInfo(String description, int imgId, String country) {
+    public SceneInfo(String description, int imgId, String country, String category) {
         this.description = description;
         this.imgId = imgId;
         this.country = country;
+        this.category = category;
     }
 
-    public SceneInfo(String description, String imgFile, String country) {
+    public SceneInfo(String description, String imgFile, String country, String category) {
         this.description = description;
         this.imgFile = imgFile;
         this.country = country;
+        this.category = category;
     }
 
     public String getDescription() {
@@ -89,6 +100,7 @@ public class SceneInfo {
                 String description = myJSONObject.getString("description");
                 String country = myJSONObject.getString("country");
                 String imgFile = myJSONObject.getString("imgFile");
+                String category = myJSONObject.getString("category"); // 新增類別
 
                 // 動態取得圖片資源 ID
                 int resId = context.getResources().getIdentifier(imgFile, "drawable", context.getPackageName());
@@ -98,7 +110,7 @@ public class SceneInfo {
                 }
 
 
-                SceneInfo mySceneInfo = new SceneInfo(description, resId, country);
+                SceneInfo mySceneInfo = new SceneInfo(description, resId, country, category);
                 myList.add(mySceneInfo);
             }
 

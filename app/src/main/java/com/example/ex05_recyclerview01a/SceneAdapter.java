@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SceneAdapter extends RecyclerView.Adapter<SceneAdapter.ViewHolder>{
     private ArrayList<SceneInfo> listdata;
@@ -34,6 +35,13 @@ public class SceneAdapter extends RecyclerView.Adapter<SceneAdapter.ViewHolder>{
         ViewHolder viewHolder = new ViewHolder(listItem);
         return viewHolder;
     }
+
+    public void updateData(List<SceneInfo> newData) {
+        this.listdata.clear(); // 清除舊數據
+        this.listdata.addAll(newData); // 添加新數據
+        notifyDataSetChanged(); // 通知 RecyclerView 數據已更新
+    }
+
     @Override
     public void onBindViewHolder(@NonNull @NotNull SceneAdapter.ViewHolder holder, int position) {
         final SceneInfo sceneInfo = (SceneInfo)listdata.get(position);//listdata[position];
