@@ -50,6 +50,7 @@ public class SceneAdapter extends RecyclerView.Adapter<SceneAdapter.ViewHolder>{
         final SceneInfo sceneInfo = (SceneInfo)listdata.get(position);//listdata[position];
         holder.textView.setText(sceneInfo.getDescription());
         holder.textView2.setText(sceneInfo.getCountry());
+        holder.textView5.setText(sceneInfo.getISBN());
         holder.imageView.setImageResource(sceneInfo.getImgId());
         holder.relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,12 +72,14 @@ public class SceneAdapter extends RecyclerView.Adapter<SceneAdapter.ViewHolder>{
         public ImageView imageView;
         public TextView textView;
         public TextView textView2;
+        public TextView textView5;
         public RelativeLayout relativeLayout;
         public ViewHolder(View itemView) {
             super(itemView);
             this.imageView = (ImageView) itemView.findViewById(R.id.imageView);
             this.textView = (TextView) itemView.findViewById(R.id.textView);
             this.textView2 = (TextView) itemView.findViewById(R.id.textView2);
+            this.textView5 = (TextView) itemView.findViewById(R.id.textView5);
             relativeLayout = (RelativeLayout)itemView.findViewById(R.id.relativeLayout);
         }
     }

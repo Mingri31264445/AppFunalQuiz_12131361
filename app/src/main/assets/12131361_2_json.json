@@ -1,0 +1,32 @@
+{
+  "all": [
+    {
+      "description": "深入淺出學會編寫程式",
+      "country": "NT$500",
+      "imgFile": "coding1",
+      "category": "coding",
+      "ISBN": "9789865021375"
+    },
+    {
+      "description": "Python自學聖經",
+      "country": "NT$600",
+      "imgFile": "coding2",
+      "category": "coding",
+      "ISBN": "9789865028060"
+    },
+    {
+      "description": "達文西密碼",
+      "country": "NT$450",
+      "imgFile": "konen1",
+      "category": "konen",
+      "ISBN": "9781400079179"
+    },
+    {
+      "description": "心理學入門",
+      "country": "NT$400",
+      "imgFile": "xinli1",
+      "category": "xinli",
+      "ISBN": "9789863126546"
+    }
+  ]
+}

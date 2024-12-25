@@ -1,7 +1,11 @@
 package com.example.ex05_recyclerview01a;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -46,10 +50,20 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
 
         // 設定篩選按鈕
-        findViewById(R.id.button).setOnClickListener(v -> filterScenes("computer"));
-        findViewById(R.id.button2).setOnClickListener(v -> filterScenes("mouse"));
-        findViewById(R.id.button3).setOnClickListener(v -> filterScenes("keyboard"));
-        findViewById(R.id.button4).setOnClickListener(v -> filterScenes("else"));
+        findViewById(R.id.button).setOnClickListener(v -> filterScenes("coding"));
+        findViewById(R.id.button2).setOnClickListener(v -> filterScenes("konen"));
+        findViewById(R.id.button3).setOnClickListener(v -> filterScenes("xinli"));
+
+        Button addToCartButton = findViewById(R.id.button4);
+        addToCartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 顯示 Toast 訊息
+                Toast.makeText(MainActivity.this, "已將此商品加入至購物車", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(v.getContext(), ThirdActivity.class);
+                v.getContext().startActivity(intent);
+            }
+        });
     }
 
     private void filterScenes(String category) {

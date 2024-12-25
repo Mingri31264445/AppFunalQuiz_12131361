@@ -1,112 +1,109 @@
 {
   "all": [
     {
-      "description": "【Acer 宏碁】Nitro V ANV16-41-R8RN 電競筆電",
-      "country": "$31900",
-      "imgFile": "computer1",
-      "category": "computer"
+      "description": "深入淺出學會編寫程式",
+      "country": "NT$500",
+      "imgFile": "coding1",
+      "category": "coding",
+      "ISBN": "9789865021375"
     },
     {
-      "description": "【HP 惠普】15S-fd0072TU 輕薄筆電 星河銀",
-      "country": "$21900",
-      "imgFile": "computer2",
-      "category": "computer"
+      "description": "Python自學聖經",
+      "country": "NT$600",
+      "imgFile": "coding2",
+      "category": "coding",
+      "ISBN": "9789865028060"
     },
     {
-      "description": "【ASUS 華碩】X1504ZA-0171C1235U 特仕版筆電",
-      "country": "$18498",
-      "imgFile": "computer3",
-      "category": "computer"
+      "description": "Java最強入門邁向頂尖高手之路",
+      "country": "NT$700",
+      "imgFile": "coding3",
+      "category": "coding",
+      "ISBN": "9789865501587"
     },
     {
-      "description": "【ESENSE 逸盛】E-C11 冷光五風扇筆電散熱墊",
-      "country": "$399",
-      "imgFile": "ped1",
-      "category": "else"
+      "description": "白話演算法",
+      "country": "NT$550",
+      "imgFile": "coding4",
+      "category": "coding",
+      "ISBN": "9789863126546"
     },
     {
-      "description": "【GJL】XBC03 筆電散熱支架-旋轉",
-      "country": "$1490",
-      "imgFile": "ped2",
-      "category": "else"
+      "description": "C++ Primer 5th Edition",
+      "country": "NT$650",
+      "imgFile": "coding5",
+      "category": "coding",
+      "ISBN": "9789865021726"
     },
     {
-      "description": "【Logitech 羅技】G413 機械式背光遊戲鍵盤",
-      "country": "$2290",
-      "imgFile": "keybord1",
-      "category": "keyboard"
+      "description": "達文西密碼",
+      "country": "NT$450",
+      "imgFile": "konen1",
+      "category": "konen",
+      "ISBN": "9781400079179"
     },
     {
-      "description": "【logitech 羅技】G304 LIGHTSPEED 遊戲滑鼠",
-      "country": "$888",
-      "imgFile": "mouse1",
-      "category": "mouse"
+      "description": "福爾摩斯探案全集",
+      "country": "NT$800",
+      "imgFile": "konen2",
+      "category": "konen",
+      "ISBN": "9789863126546"
     },
     {
-      "description": "【Razer 雷蛇】DeathAdder 煉獄奎蛇 V3 PRO 滑鼠",
-      "country": "$3490",
-      "imgFile": "mouse2",
-      "category": "mouse"
+      "description": "科學偵探謎野真實11",
+      "country": "NT$500",
+      "imgFile": "konen3",
+      "category": "konen",
+      "ISBN": "9789863126546"
     },
     {
-      "description": "【Razer 雷蛇】V4 X 黑寡婦蜘蛛 幻彩版鍵盤 綠軸",
-      "country": "$2990",
-      "imgFile": "keybord2",
-      "category": "keyboard"
+      "description": "科學偵探謎野真實12",
+      "country": "NT$500",
+      "imgFile": "konen4",
+      "category": "konen",
+      "ISBN": "9789863126546"
     },
     {
-      "description": "【ASUS 華碩】ROG  NX Moonlight White 機械式鍵盤",
-      "country": "$3190",
-      "imgFile": "keybord3",
-      "category": "keyboard"
+      "description": "白夜行",
+      "country": "NT$600",
+      "imgFile": "konen5",
+      "category": "konen",
+      "ISBN": "9789863126546"
     },
     {
-      "description": "【HP 惠普】255 G10 15.6吋 R7 商務筆電",
-      "country": "$27900",
-      "imgFile": "computer4",
-      "category": "computer"
+      "description": "心理學入門",
+      "country": "NT$400",
+      "imgFile": "xinli1",
+      "category": "xinli",
+      "ISBN": "9789863126546"
     },
     {
-      "description": "【Acer 宏碁】A315-44P-R10L 15.6吋 R7 筆電 銀色",
-      "country": "$18900",
-      "imgFile": "computer5",
-      "category": "computer"
+      "description": "情緒智商",
+      "country": "NT$450",
+      "imgFile": "xinli2",
+      "category": "xinli",
+      "ISBN": "9789863126546"
     },
     {
-      "description": "【MSI 微星】Katana 17 17.3吋 電競筆電",
-      "country": "$42900",
-      "imgFile": "computer6",
-      "category": "computer"
+      "description": "心理學與生活",
+      "country": "NT$450",
+      "imgFile": "xinli3",
+      "category": "xinli",
+      "ISBN": "9789863126546"
     },
     {
-      "description": "【MSI 微星】Thin A15 15.6吋 電競筆電",
-      "country": "$28900",
-      "imgFile": "computer7",
-      "category": "computer"
+      "description": "認知心理學",
+      "country": "NT$550",
+      "imgFile": "xinli4",
+      "category": "xinli",
+      "ISBN": "9789885021375"
     },
     {
-      "description": "【Razer 雷蛇】Pro Click Humanscale 無線滑鼠 白色",
-      "country": "$1688",
-      "imgFile": "mouse3",
-      "category": "mouse"
-    },
-    {
-      "description": "【Logitech 羅技】F310 遊戲搖桿",
-      "country": "$689",
-      "imgFile": "controler1",
-      "category": "else"
-    },
-    {
-      "description": "【Razer 雷蛇】獵魂光蛛 V2 鍵盤 中文/紅軸",
-      "country": "$3990",
-      "imgFile": "keybord4",
-      "category": "keyboard"
-    },
-    {
-      "description": "【Logitech 羅技】M331 無線靜音滑鼠 黑",
-      "country": "$699",
-      "imgFile": "mouse4",
-      "category": "mouse"
+      "description": "心理學研究方法",
+      "country": "NT$600",
+      "imgFile": "xinli5",
+      "category": "xinli",
+      "ISBN": "9789863126546"
     }
   ]
 }
